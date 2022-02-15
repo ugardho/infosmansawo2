@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+.cards .card .content .img {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 14px;
+}
+.card .content .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards .card .content .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card .content .details .name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card .content .details .job {
+  font-size: 20px;
+  color: rgba(5, 165, 165, 0.83);
+}
+.card .content .media-icons {
+  display: flex;
+  margin-top: 10px;
+}
+.card .content .media-icons a {
+  height: 35px;
+  width: 35px;
+  color: #ffff;
+  background: rgba(5, 165, 165, 0.83);
+  margin: 0 4px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 33px;
+  font-size: 14px;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.card .content .media-icons a:hover {
+  border-color: rgba(5, 165, 165, 0.83);
+  color: rgba(5, 165, 165, 0.83);
+  background: #ffff;
+}
+.main-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
